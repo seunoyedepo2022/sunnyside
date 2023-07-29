@@ -61,6 +61,7 @@ button {
   flex-direction: column;
   padding-left: 6rem;
   padding-right: 6rem;
+  background-color: hsl(7deg, 67%, 96%);
 }
 .leftcontainer h2 {
   color: hsl(212, 27%, 19%);
@@ -192,12 +193,49 @@ i{
   }
   .menu{
     display: block;
-    color: white;
+   
   }
 nav{
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 .creative{
   font-size: 2rem;
+}
+.gridcontainer{
+  grid-template-columns: 1fr;
+}
+.cupEgg{
+  order: 1;
+}
+.leftcontainer{
+  order: 2;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+.leftcontainer h2{
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+.menu i{
+  color: white;
+}
+.leftcontainer a{
+  padding-bottom: 3rem;
+}
+.apple{
+  padding: 0 2rem;
+}
+.orange{
+  padding: 0 2rem;
+}
+.testimonialContainer{
+  grid-template-columns: 1fr;
+}
+.testimonials{
+  padding: 6rem 2rem;
+}
+.fourgrids{
+  grid-template-columns: repeat(2, 1fr);
 }
 }
